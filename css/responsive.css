@@ -1,5 +1,5 @@
-@media only screen and (max-width: 600px){ #homeimage .collapse{
-display:none;
+@media only screen and (max-width: 600px){ #homeimage{
+display:inline-block;
 }
 }
 
@@ -18,30 +18,7 @@ display:none;
 }
 }
 
-@media only screen and (max-width: 800px){.hanging{
-    display:none;
-}
-
-
-@media only screen and (max-width: 800px) {#professional{
-    display: inline-block;
-}
-}
-}
-
-@media only screen and (max-width: 800px) {#personal1{
- display: flex block;
- float: left
-}
-}
-
-@media only screen and (max-width: 800px) {#professional{
-    display: block;
-    padding-top:600px;
-   }
-   }
-
-   @media only screen and (max-width: 600px){#searchbar{
+@media only screen and (max-width: 600px){#searchbar{
     display:none;
 }
 }
@@ -68,3 +45,105 @@ display:none;
     display: inline;
 }
 }
+
+@media only screen and (max-width: 800px){#homeimage{
+    display:none;
+    }
+    }
+    
+
+@media only screen and (max-width: 800px) {#personal1{
+    display: none;
+    float: left
+   }
+   }
+
+@media only screen and (max-width: 600px){#footer{
+    display: flex;
+    width: auto;
+}
+}
+
+@media only screen and (max-width: 800px){#footer{
+    display: flex;
+    width: auto;
+}
+}
+
+@media only screen and (max-width: 800px){.hanging{
+    display:none;
+}
+
+
+@media only screen and (max-width: 800px) {#professional{
+    display: block;
+}
+}
+}
+
+@media only screen and (max-width: 800px) {#personal1{
+ display: flex block;
+ float: left
+}
+}
+
+@media only screen and (max-width: 800px) {#professional{
+    display: block;
+    padding-top:100px;
+   }
+   }
+
+   @media only screen and (max-width: 800px) {#bio{
+    display: block;
+    padding-top:100px;
+   }
+   }
+
+   @media only screen and (max-width: 800px) {#welcome{
+    display: block;
+    padding-top: 325px;
+   }
+   }
+
+   @media only screen and (max-width: 800px) {.evideo{
+    display: block;
+    width: 675px;
+    height: 800px;
+   }
+   }
+   @media only screen and (max-width: 800px) {#video{
+    display: block;
+    border-block-start: auto;
+    border-block-end-width: auto;
+    border-block-end:auto;
+    padding-bottom: -300px
+   }
+   }
+   
+   @media only screen and (max-width: 800px) {.ppt{
+       display: block;
+       margin-left:300px
+   }
+}
+
+@media only screen and (max-width: 800px) {#extra{
+    padding-top:75px;
+    display: inline-block;
+    text-align: center;
+    margin-left:100px;
+}
+}
+
+@media only screen and (max-width: 800px) {.resources{
+    display: block;
+    text-align: center;
+    padding-bottom:100px;
+}
+}
+
+@media only screen and (max-width: 800px){#additional{
+display:inline-block;
+margin-bottom:-700px;
+}
+}
+
