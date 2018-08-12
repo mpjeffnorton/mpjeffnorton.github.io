@@ -2,6 +2,7 @@ body{
     background-image: url(/Images/streamfishing.jpg);
     background-repeat: no-repeat;
     background-size:100%;
+    background-color:lightblue;
 }
 
 #navmenu
@@ -68,6 +69,11 @@ a:clicked {
     width:200px
 }
 
+#welcome
+{
+    padding-top:175px;
+}
+
 #personal1
 {
     margin:auto;
@@ -90,10 +96,16 @@ a:clicked {
 
 #professional
 {
+    text-align: center;
     margin:auto;
     display:block;
     position: absolute;
     line-height: 1.2em
+}
+
+#professional ul li{
+    text-align: center;
+    list-style-position: inside
 }
 
   .family {
@@ -116,4 +128,49 @@ h1{
     color:red;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 800;
+}
+
+h2{
+    color:red
+}
+
+h3{
+    color:red
+}
+
+.qbio{
+    text-align:center;
+    font-size:3.0em;
+}
+
+
+#bio
+{
+    border-bottom: 50px solid black;
+    padding-top:500px;
+}
+
+
+#footer
+{
+    display:block; 
+    position: inherit;
+    padding-top:15px;
+    padding-left:100px;
+    padding-bottom:75px;
+    margin-top:800px;
+    bottom: 0px;
+    background-color:darkblue;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    text-emphasis: bold;
+    font-size:.9em;
+}
+
+.f1{
+    color:white
+}
+
+#footer a{
+    color:white
 }

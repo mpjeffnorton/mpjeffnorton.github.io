@@ -69,12 +69,11 @@ li a
     display: block
 }
 
-.school {
+.school li {
     text-align: center;
-    padding: auto;
-    padding: inherit;
-    margin: auto;
-    display: block
+    display: block;
+    margin-right:200px;
+    padding-left: 75px
 }
 
 #granite.p
@@ -82,20 +81,15 @@ li a
     text-align: left;
 }
 
-#granite ol li 
+#granite ol li
 {
     list-style-type: none;
-}
-
-#granite li 
-{
-    float: left;
+    text-align: center;
 }
 
 #granite ol li a
 {
     color: darkgreen;
-    text-align: center;
 }
 
 #extra
@@ -106,9 +100,26 @@ li a
     display: block;
 }
 
+.programs
+{
+    text-align: center;
+    padding-top:45px;
+    font-display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6em;
+}
+
 #additional ul li
 {
+    text-align: center;
     float:left;
+}
+
+ul.editors
+{
+    align-items: stretch;
+    align-content: center;
+    margin-left:75px;
 }
 
 /*links*/ 
@@ -126,4 +137,24 @@ a:hover
 a:clicked 
 {
     color:darkgoldenrod
+}
+
+#footer
+{
+    display:block; 
+    position: inherit;
+    padding-top:15px;
+    padding-left:100px;
+    padding-bottom:75px;
+    margin-left:0px;
+    margin-top:800px;
+    bottom: 0px;
+    background-color:darkblue;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    text-emphasis: bold;
+}
+
+#footer a{
+    color:white
 }

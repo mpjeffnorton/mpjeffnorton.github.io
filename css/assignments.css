@@ -61,41 +61,80 @@ a:clicked {
     color: darkgoldenrod
 }
 
-.bold {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2em;
-    font-weight: bold;
-    font-style: italic;
-}
-
-.color {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:1.2em;
-}
-
-
-.strand{
-    font-size: 1.5em;
-    font-weight: bolder;
-    float:left;
-}
-
-p#italics
+#form
 {
-    padding-top:100px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2em;
-    font-weight: bold;
-    font-style: italic;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    border-style: solid;
+    border: 10px
 }
 
-/*footer*/
+.checkbox
+{
+    padding-bottom: 25px;
+}
+
+.survey
+{
+    padding-bottom: 50px
+}
+
+.submit
+{
+    border: thick;
+    border-color: black;
+}
+
+#video
+{
+    height: 805px;
+    width:1005px;
+    border-style: solid;
+    border-color: red;
+    background-color:black;
+    color:red;
+    padding-bottom: 150px
+}
+
+.pdf
+{
+    height:500px;
+    width:800px;
+    float:left
+}
+
+.ppt
+{
+    height:500px;
+    width:800px;
+    float:right;
+    padding-bottom: 25px;
+}
+
+.basics
+{
+    text-align: right;
+    margin-right:650px
+}
+
+.flt-right
+{
+    display: inline;
+    padding-bottom: 800px
+}
+
+#submit{
+    float: left;
+    margin-left:300px;
+    padding-top:100px;
+    padding-bottom: 100px
+}
 
 #footer
 {
     display:block; 
     position: inherit;
-    margin-top:-500px;
     padding-top:15px;
     padding-left:100px;
     padding-bottom:75px;

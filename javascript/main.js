@@ -16,3 +16,13 @@ function getGreeting(hours) {
     return '<b>' + greetingText + '</b> Digital Literacy Homepage';
 }
 
+
+mouseEvent.onclick.submit
+var submit = confirm("Are you sure you want to submit?");{
+}if (submit = true){
+        text = "Thank you for your submission!";
+    }
+    else{
+        text = ("Are you sure?");
+    }
+document.getElementById("submit").alertpopupwindow("Thank you")

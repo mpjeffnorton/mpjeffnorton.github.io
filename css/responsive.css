@@ -3,50 +3,50 @@ display:none;
 }
 }
 
-@media only screen and (max-width: 125px){ .collapse{
+@media only screen and (max-width: 600px){ .collapse{
     display:none;
     }
     }
 
-    @media only screen and (max-width: 125px){.hanging{
+    @media only screen and (max-width: 600px){.hanging{
         display:none;
     }
 }
 
-@media only screen and (max-width:125){.hanging {
+@media only screen and (max-width:600){.hanging {
     display:none;
 }
 }
 
-@media only screen and (max-width: 300px){.hanging{
+@media only screen and (max-width: 800px){.hanging{
     display:none;
 }
 
 
-@media only screen and (max-width: 300px) {#professional{
+@media only screen and (max-width: 800px) {#professional{
     display: inline-block;
 }
 }
 }
 
-@media only screen and (max-width: 700px) {#personal1{
+@media only screen and (max-width: 800px) {#personal1{
  display: flex block;
  float: left
 }
 }
 
-@media only screen and (max-width: 700px) {#professional{
+@media only screen and (max-width: 800px) {#professional{
     display: block;
     padding-top:600px;
    }
    }
 
-   @media only screen and (max-width: 650px){#searchbar{
+   @media only screen and (max-width: 600px){#searchbar{
     display:none;
 }
 }
 
-@media only screen and (max-width: 650px){#navmenu .links {
+@media only screen and (max-width: 600px){#navmenu .links {
     display: block;
     float: left;
     padding-right:0 0 0 0;
@@ -54,17 +54,17 @@ display:none;
 }
 }
 
-@media only screen and (max-width: 650px){#navmenu{
+@media only screen and (max-width: 600px){#navmenu{
     display: inline;
 }
 }
 
-@media only screen and (max-width: 650px){ol {
+@media only screen and (max-width: 600px){ol {
     display: inline-block;
 }
 }
 
-@media only screen and (max-width: 650px){#extra{
+@media only screen and (max-width: 600px){#extra{
     display: inline;
 }
 }

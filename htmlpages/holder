@@ -8,3 +8,15 @@
     display: inline-block;
 }
 }
+$(document).ready(function(){
+    setTimeout(function(){
+        Popup();
+    },5000);
+});
+
+windows.onload = function popup(mylink, IntroduceYourself){
+    if (! typeof(mylink)== 'string') href=mylink;
+    else href=mylink.href;
+    window.open(href, IntroduceYourself, 'width=400, height=500,scrollbar=yes');
+    return false;
+}
